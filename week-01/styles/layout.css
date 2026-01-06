@@ -13,7 +13,7 @@ header {
     grid-area: header;
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 15px;
 }
 
@@ -21,7 +21,7 @@ nav {
     grid-area: nav;
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 20px;
     padding: 10px;
 }
@@ -40,7 +40,7 @@ main {
 
 aside {
     grid-area: aside;
-    background-color: #ddd;
+    background-color: white;
     padding: 20px;
 }
 
@@ -48,6 +48,6 @@ footer {
     grid-area: footer;
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 15px;
 }
