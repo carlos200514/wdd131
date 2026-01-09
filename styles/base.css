@@ -1,0 +1,30 @@
+header span {
+    display: block;
+    background-color: #22aedd;
+    color: #222225;
+}
+
+h2, footer {
+    background-color: #22aedd;
+    color: #222225;
+}
+
+nav {
+    display: flex;
+    background-color: #181a1b;
+}
+
+a {
+    text-decoration: none;
+    color: #b1b1b9;
+}
+
+main {
+    width: 400px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 20px;
+}
