@@ -1,4 +1,4 @@
-header span {
+header {
     display: block;
     background-color: #22aedd;
     color: #222225;
@@ -12,11 +12,17 @@ h2, footer {
 nav {
     display: flex;
     background-color: #181a1b;
+    color: #b1b1b9;
 }
 
 a {
     text-decoration: none;
     color: #b1b1b9;
+}
+
+a :hover {
+    background-color: #fff;
+    color: #222225;
 }
 
 main {
@@ -25,6 +31,6 @@ main {
 
 .card {
     display: grid;
-    grid-template-columns: 1fr auto;
-    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
 }
